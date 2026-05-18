@@ -1,139 +1,89 @@
-# 🐾 Adopet
+# 🧪 Adopet Cypress Tests
 
 <p align="center">
-  <img src="https://img.shields.io/badge/status-em%20desenvolvimento-success?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/frontend-web-blue?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/tests-cypress-brightgreen?style=for-the-badge" />
-  <img src="https://img.shields.io/badge/responsive-yes-orange?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/tests-e2e-brightgreen?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/cypress-automation-success?style=for-the-badge" />
+  <img src="https://img.shields.io/badge/status-active-blue?style=for-the-badge" />
 </p>
 
 <p align="center">
-  Sistema web moderno para adoção de pets, focado em experiência do usuário, responsividade e qualidade de software através de testes automatizados.
+  Projeto de automação de testes End-to-End (E2E) utilizando Cypress para validação da aplicação Adopet.
 </p>
-
----
-
-## 🚀 Demonstração
-
-🔗 Acesse o projeto online:  
-👉 https://adopet-frontend-cypress.vercel.app
 
 ---
 
 # 📖 Sobre o Projeto
 
-O **Adopet** é uma aplicação web desenvolvida com foco na adoção responsável de animais, oferecendo uma interface intuitiva, moderna e acessível para conectar pessoas interessadas em adotar pets.
+O **Adopet Cypress** é um projeto focado em automação de testes End-to-End da aplicação web **Adopet**, garantindo maior confiabilidade, estabilidade e qualidade da experiência do usuário.
 
-O projeto foi construído priorizando:
+O projeto foi desenvolvido com foco em:
 
-- experiência do usuário (UI/UX),
-- organização de código,
-- componentização,
-- responsividade,
-- e qualidade através de testes automatizados com Cypress.
+- automação de fluxos críticos,
+- validação de comportamento da interface,
+- testes de navegação,
+- qualidade contínua,
+- e boas práticas de automação front-end.
 
-Além da interface moderna, o sistema também demonstra boas práticas de desenvolvimento front-end e estruturação profissional de aplicações web.
+Além da implementação dos testes, a estrutura foi organizada visando escalabilidade, legibilidade e manutenção facilitada.
 
 ---
 
 # 🎯 Objetivo
 
-Desenvolver uma plataforma web capaz de facilitar o processo de adoção de animais de forma simples, acessível e intuitiva, simulando um ambiente real de aplicação moderna utilizada no mercado.
+Garantir a qualidade da aplicação Adopet através da automação de testes E2E, simulando interações reais do usuário e validando os principais fluxos da plataforma.
 
 ---
 
-# 👥 Público-Alvo
+# 🌐 Aplicação Testada
 
-- Pessoas interessadas em adoção de pets
-- ONGs e instituições de adoção
-- Desenvolvedores front-end
-- Recrutadores avaliando portfólio técnico
-- Estudantes buscando referência de boas práticas
+🔗 Produção:  
+https://adopet-frontend-cypress.vercel.app
 
 ---
 
-# ✨ Funcionalidades
+# ✨ Cenários Automatizados
 
-- 🐶 Listagem de pets disponíveis para adoção
-- 🔍 Navegação intuitiva e amigável
-- 📱 Layout totalmente responsivo
-- 🎨 Interface moderna e acessível
-- 🧩 Componentização da interface
-- ⚡ Navegação fluida entre páginas
-- 🧪 Testes automatizados End-to-End com Cypress
-- 🔒 Validação de fluxos críticos da aplicação
-- 🚀 Deploy em ambiente cloud
+- ✅ Navegação entre páginas
+- ✅ Validação de renderização
+- ✅ Fluxos de interação do usuário
+- ✅ Verificação de elementos visuais
+- ✅ Testes de formulários
+- ✅ Validações de comportamento da interface
+- ✅ Garantia de funcionamento dos fluxos principais
 
 ---
 
 # 🛠️ Tecnologias Utilizadas
 
-## 🎨 Front-end
-
-- HTML5
-- CSS3
-- JavaScript
-- React.js *(placeholder caso aplicável)*
-- Vite *(placeholder caso aplicável)*
-
-## 🧪 Testes
+## 🧪 Testes e Automação
 
 - Cypress
 
-## ☁️ Deploy
+## 💻 Linguagem
 
-- Vercel
+- JavaScript
+
+## 📦 Gerenciamento
+
+- Node.js
+- npm
 
 ---
 
-# 🧱 Arquitetura do Projeto
-
-O projeto segue uma arquitetura focada em separação de responsabilidades e reutilização de componentes, visando escalabilidade e facilidade de manutenção.
-
-### Estrutura base:
+# 📂 Estrutura do Projeto
 
 ```bash
-src/
-├── assets/
-├── components/
-├── pages/
-├── routes/
-├── services/
-├── styles/
-├── tests/
-└── utils/
+adopet-cypress/
+├── cypress/
+│   ├── e2e/
+│   ├── fixtures/
+│   ├── support/
+│   └── screenshots/
+│
+├── cypress.config.js
+├── package.json
+└── README.md
 ```
-
-> ⚠️ Estrutura ilustrativa — ajuste conforme a organização real do projeto.
-
----
-
-# 📂 Estrutura de Pastas
-
-| Pasta | Responsabilidade |
-|---|---|
-| `components` | Componentes reutilizáveis |
-| `pages` | Páginas da aplicação |
-| `services` | Integração com APIs |
-| `routes` | Configuração de rotas |
-| `styles` | Estilos globais |
-| `tests` | Testes automatizados |
-| `utils` | Funções auxiliares |
-
----
-
-# 🧪 Qualidade e Testes
-
-O projeto utiliza o **Cypress** para garantir qualidade e estabilidade da aplicação através de testes automatizados End-to-End (E2E).
-
-## Cenários testados
-
-- Fluxo de navegação
-- Renderização de páginas
-- Interações do usuário
-- Validação de componentes
-- Responsividade básica
-- Fluxos críticos da aplicação
 
 ---
 
@@ -144,22 +94,22 @@ O projeto utiliza o **Cypress** para garantir qualidade e estabilidade da aplica
 Antes de começar, você precisará ter instalado:
 
 - Node.js
-- npm ou yarn
+- npm
 
 ---
 
 ## 📥 Clone o repositório
 
 ```bash
-git clone [URL_DO_REPOSITORIO]
+git clone https://github.com/oecarvalho/adopet-cypress.git
 ```
 
 ---
 
-## 📂 Acesse a pasta
+## 📂 Acesse a pasta do projeto
 
 ```bash
-cd adopet
+cd adopet-cypress
 ```
 
 ---
@@ -172,21 +122,17 @@ npm install
 
 ---
 
-## ▶️ Execute o projeto
+# ▶️ Executando os Testes
 
-```bash
-npm run dev
-```
-
----
-
-## 🧪 Execute os testes Cypress
+## Abrir interface do Cypress
 
 ```bash
 npx cypress open
 ```
 
-ou
+---
+
+## Executar testes em modo headless
 
 ```bash
 npx cypress run
@@ -194,64 +140,81 @@ npx cypress run
 
 ---
 
-# 🌐 Deploy
+# 🧪 Estrutura dos Testes
 
-A aplicação está hospedada na plataforma:
+A automação foi organizada visando clareza e escalabilidade.
 
-- ▲ Vercel
+### Organização:
 
-Deploy online:
-
-🔗 https://adopet-frontend-cypress.vercel.app
+| Diretório | Responsabilidade |
+|---|---|
+| `e2e` | Cenários de testes |
+| `fixtures` | Massa de dados |
+| `support` | Comandos customizados |
+| `screenshots` | Evidências geradas |
 
 ---
 
 # 💡 Diferenciais do Projeto
 
-- Interface moderna e responsiva
-- Estrutura organizada e escalável
-- Aplicação de testes automatizados
-- Foco em UX/UI
-- Código limpo e componentizado
-- Projeto com padrão visual profissional
-- Deploy em ambiente real
+- Estrutura organizada de automação
+- Foco em testes E2E reais
+- Simulação de comportamento do usuário
+- Facilidade de manutenção
+- Projeto voltado para qualidade de software
+- Código limpo e legível
+- Aplicação prática de Cypress em ambiente real
 
 ---
 
 # 📚 Aprendizados
 
-Durante o desenvolvimento deste projeto, foram aprofundados conhecimentos em:
+Durante o desenvolvimento deste projeto foram aprofundados conhecimentos em:
 
-- Estruturação de aplicações front-end
-- Componentização
-- Responsividade
-- Testes automatizados com Cypress
-- Organização de projeto
+- Automação de testes E2E
+- Cypress
+- Estratégias de validação
+- Estruturação de testes automatizados
 - Fluxos de navegação
+- Boas práticas de QA
 - Qualidade de software
-- Deploy de aplicações web
+- Testes de interface
 
 ---
 
 # 🚀 Melhorias Futuras
 
-- 🔐 Sistema completo de autenticação
-- ❤️ Favoritar pets
-- 📋 Formulário de adoção
-- 🔎 Filtros avançados
-- ♿ Melhorias de acessibilidade
+- 🔄 Integração com CI/CD
+- 📊 Relatórios automatizados de testes
+- 📸 Captura automática de evidências
+- 🧪 Testes de regressão completos
+- ⚡ Execução paralela
+- 🔍 Cobertura ampliada de cenários
+- 🌐 Integração com APIs
 
 ---
 
-# 📄 Licença
+# 🔗 Repositório
 
-Este projeto está sob a licença MIT.
+👉 :contentReference[oaicite:0]{index=0}
+
+---
+
+# 👨‍💻 Autor
+
+Desenvolvido por **Felipe Carvalho**.
+
+## 🌐 Contato
+
+- GitHub: :contentReference[oaicite:1]{index=1}
+- LinkedIn: `https://www.linkedin.com/in/felipepcarvalho/`
+- Portfólio: `https://ocarvalhodev.vercel.app/`
 
 ---
 
 # ⭐ Considerações Finais
 
-O **Adopet** representa não apenas uma aplicação funcional, mas também um projeto voltado à demonstração de boas práticas de desenvolvimento front-end moderno, organização arquitetural e qualidade de software através de testes automatizados.
+Este projeto demonstra na prática a aplicação de testes automatizados End-to-End utilizando Cypress, reforçando conhecimentos em qualidade de software, automação e validação de aplicações web modernas.
 
 Se este projeto foi útil para você, considere deixar uma ⭐ no repositório.
 
