@@ -238,12 +238,8 @@ Durante o desenvolvimento deste projeto, foram aprofundados conhecimentos em:
 - 🔐 Sistema completo de autenticação
 - ❤️ Favoritar pets
 - 📋 Formulário de adoção
-- 🌙 Dark mode
-- 📊 Dashboard administrativo
 - 🔎 Filtros avançados
-- 📡 Integração com backend real
 - ♿ Melhorias de acessibilidade
-- 🌎 Internacionalização (i18n)
 
 ---
 
