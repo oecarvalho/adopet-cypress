@@ -206,7 +206,6 @@ Desenvolvido por **Felipe Carvalho**.
 
 ## 🌐 Contato
 
-- GitHub: :contentReference[oaicite:1]{index=1}
 - LinkedIn: `https://www.linkedin.com/in/felipepcarvalho/`
 - Portfólio: `https://ocarvalhodev.vercel.app/`
 
