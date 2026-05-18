@@ -1,0 +1,100 @@
+{
+  "stats": {
+    "suites": 1,
+    "tests": 1,
+    "passes": 1,
+    "pending": 0,
+    "failures": 0,
+    "start": "2026-05-18T00:23:32.398Z",
+    "end": "2026-05-18T00:23:38.761Z",
+    "duration": 6363,
+    "testsRegistered": 1,
+    "passPercent": 100,
+    "pendingPercent": 0,
+    "other": 0,
+    "hasOther": false,
+    "skipped": 0,
+    "hasSkipped": false
+  },
+  "results": [
+    {
+      "uuid": "82d2ed09-4ad7-4fc1-9265-0f5b7844ae96",
+      "title": "",
+      "fullFile": "cypress\\e2e\\spec.cy.cy.js",
+      "file": "cypress\\e2e\\spec.cy.cy.js",
+      "beforeHooks": [],
+      "afterHooks": [],
+      "tests": [],
+      "suites": [
+        {
+          "uuid": "a4d6ec89-8f59-4e35-8969-940dc3ceefd7",
+          "title": "Verifica o comportamento da página ao digitar os dados incorretamente",
+          "fullFile": "",
+          "file": "",
+          "beforeHooks": [],
+          "afterHooks": [],
+          "tests": [
+            {
+              "title": "Verifica se as mensagens de aviso aparecem corretamente",
+              "fullTitle": "Verifica o comportamento da página ao digitar os dados incorretamente Verifica se as mensagens de aviso aparecem corretamente",
+              "timedOut": null,
+              "duration": 2881,
+              "state": "passed",
+              "speed": "fast",
+              "pass": true,
+              "fail": false,
+              "pending": false,
+              "context": null,
+              "code": "cy.viewport(1920, 1080);\ncy.visit('https://adopet-frontend-cypress.vercel.app/');\ncy.get('[data-test=\"register-button\"]').click();\ncy.get('[data-test=\"submit-button\"]').click();\ncy.contains('É necessário informar um endereço de email').should('be.visible');\ncy.contains('Crie uma senha').should('be.visible');\ncy.contains('Repita a senha criada acima').should('be.visible');",
+              "err": {},
+              "uuid": "8adc53da-52fd-4a19-8bed-4996ccc4798d",
+              "parentUUID": "a4d6ec89-8f59-4e35-8969-940dc3ceefd7",
+              "isHook": false,
+              "skipped": false
+            }
+          ],
+          "suites": [],
+          "passes": [
+            "8adc53da-52fd-4a19-8bed-4996ccc4798d"
+          ],
+          "failures": [],
+          "pending": [],
+          "skipped": [],
+          "duration": 2881,
+          "root": false,
+          "rootEmpty": false,
+          "_timeout": 2000
+        }
+      ],
+      "passes": [],
+      "failures": [],
+      "pending": [],
+      "skipped": [],
+      "duration": 0,
+      "root": true,
+      "rootEmpty": true,
+      "_timeout": 2000
+    }
+  ],
+  "meta": {
+    "mocha": {
+      "version": "7.2.0"
+    },
+    "mochawesome": {
+      "options": {
+        "quiet": false,
+        "reportFilename": "mochawesome",
+        "saveHtml": true,
+        "saveJson": true,
+        "consoleReporter": "spec",
+        "useInlineDiffs": false,
+        "code": true
+      },
+      "version": "7.1.4"
+    },
+    "marge": {
+      "options": null,
+      "version": "6.3.2"
+    }
+  }
+}
